@@ -1,0 +1,54 @@
+{
+  "cars-limousines": {
+    "menu": {
+      "cars-limousines": {
+        "id": 0,
+        "href": "/cars-limousines",
+        "title": "Home Page",
+        "Icon": "HomepageIcon"
+      },
+      "Marketing": {
+        "id": 1,
+        "href": "/cars-limousines/marketing",
+        "title": "Marketing dashboard",
+        "Icon": "AgencyIcon"
+      },
+      "Sales": {
+        "id": 2,
+        "href": "/cars-limousines/sales",
+        "title": "Sales dashboard",
+        "Icon": "AgencyIcon"
+      },
+      "Operations": {
+        "id": 3,
+        "href": "/cars-limousines/operations",
+        "title": "Operations dashboard",
+        "Icon": "AgencyIcon"
+      },
+      "manager": {
+        "id": 3,
+        "href": "/cars-limousines/manager",
+        "title": "Manager dashboard",
+        "Icon": "AgencyIcon"
+      }
+    },
+    "title": "Cars & limousines"
+  },
+  "homepage": {
+    "menu": {
+      "": {
+        "id": 0,
+        "href": "/",
+        "title": "Dashboard",
+        "Icon": "DashboardIcon"
+      },
+      "cars-limousines": {
+        "id": 1,
+        "href": "/cars-limousines",
+        "title": "Cars & limousines",
+        "Icon": "VehicleIcon"
+      }
+    },
+    "title": "Dashboard"
+  }
+}
