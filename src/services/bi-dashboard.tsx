@@ -273,3 +273,28 @@ export const FetchDests = async () => {
   }
 };
 
+export const getPredictedTotalPrice = async (futureDate: string): Promise<number> => {
+  try {
+    const response = await apiClient.get('/predict_total_price/', {
+      params: {
+        future_date: futureDate,
+      }
+    });
+    return response.data.predicted_total_price;
+  } catch (error) {
+    console.error('Error fetching predicted total price:', error);
+    throw error;
+  }
+};
+
+export const optimizeFleet = async (futureDate: string) => {
+  try {
+    const response = await axios.get('http://localhost:8000/optimize_fleet/', {
+      params: { future_date: futureDate },
+    });
+    return response.data;
+  } catch (error) {
+    console.error('Error optimizing fleet:', error);
+    throw error;
+  }
+};

@@ -1,7 +1,7 @@
 {
   "cars-limousines": {
     "menu": {
-      "cars-limousines": {
+      "Home Page": {
         "id": 0,
         "href": "/cars-limousines",
         "title": "Home Page",
@@ -25,27 +25,39 @@
         "title": "Operations dashboard",
         "Icon": "AgencyIcon"
       },
-      "manager": {
-        "id": 3,
+      "Manager": {
+        "id": 4,
         "href": "/cars-limousines/manager",
         "title": "Manager dashboard",
         "Icon": "AgencyIcon"
+      },
+      "Machine Learning": {
+        "id": 5,
+        "href": "/cars-limousines/machine-learning",
+        "title": "Trend Predictor",
+        "Icon": "AgencyIcon"
+      },
+      "Machine Learning2": {
+        "id": 5,
+        "href": "/cars-limousines/machine-learning-2",
+        "title": "Optimize Advisor",
+        "Icon": "AgencyIcon"
       }
     },
-    "title": "Cars & limousines"
+    "title": "Cars & Limousines"
   },
   "homepage": {
     "menu": {
-      "": {
+      "Dashboard": {
         "id": 0,
         "href": "/",
         "title": "Dashboard",
         "Icon": "DashboardIcon"
       },
-      "cars-limousines": {
+      "Cars & Limousines": {
         "id": 1,
         "href": "/cars-limousines",
-        "title": "Cars & limousines",
+        "title": "Cars & Limousines",
         "Icon": "VehicleIcon"
       }
     },

@@ -152,6 +152,7 @@ export default function CarsLimousines() {
             <RevenueByOfferAndDateChart filters={filters} />
           </Card>
         </div>
+        <br></br>
         <div className="relative grid size-full auto-rows-min grid-cols-1 justify-items-center gap-8 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
           <Card data={{ title: 'Client Name request Gain KPi' }}>
             <FactRequestGainChart filters={filters} />
